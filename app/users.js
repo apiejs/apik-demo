@@ -6,10 +6,10 @@ module.exports = {
   },
   "res": {
     "status": 200,
-    "body": [function(req, res, next) {
+    "body": [function(ctx, next) {
       next()
-    }, function(req, res){
-       res.json("Hello world!")
+    }, function(ctx){
+      ctx.body = "Hello world!"
     }],
     "headers": {
       "Content-Type": "text/plain"

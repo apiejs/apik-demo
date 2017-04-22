@@ -1,6 +1,6 @@
 module.exports = {
     "path": "/view",
-    "body": function (req, res) {
-        res.render('index', { title: 'Express' });
+    "body": function (ctx) {
+        return ctx.render('index', { title: 'Express' });
     }
 }
