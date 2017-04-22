@@ -1,10 +1,10 @@
-# apie-demo
+# apik-demo
 
 ## Usages
 
 ```
-$ git clone https://github.com/i5ting/apie-demo.git
-$ cd apie-demo
+$ git clone https://github.com/i5ting/apik-demo.git
+$ cd apik-demo
 $ npm i
 $ npm start
 ```
@@ -49,7 +49,7 @@ $ tree .
 
 ## HTTP Api
 
-get all api info at http://127.0.0.1:3000/apie.json
+get all api info at http://127.0.0.1:3000/apik.json
 
 ```
 {"data":[{"file":"/all.js","method":"all","path":"/all"},{"file":"/api/index.js","method":"get","path":"/home"},{"file":"/api/user.js","method":"get","path":"/home1"},{"file":"/demo/path.js","method":"get","path":"/demo/path"},{"file":"/demo/demo/json.js","method":"get","path":"/demo/demo/json"},{"file":"/home.js","method":"get","path":"/home"},{"file":"/json.js","method":"get","path":"/json"},{"file":"/jsonfile.js","method":"get","path":"/jsonfile"},{"file":"/middleware.js","method":"get","path":"/middleware"},{"file":"/middlewares.js","method":"get","path":"/middlewares"},{"file":"/movies.js","method":"get","path":"/movies"},{"file":"/post.js","method":"post","path":"/post"},{"file":"/simple.js","method":"get","path":"/simple"},{"file":"/users.js","method":"get","path":"/users"},{"file":"/view.js","method":"get","path":"/view"}]}
